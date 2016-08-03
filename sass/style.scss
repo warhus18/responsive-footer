@@ -70,34 +70,6 @@ a {
     @include transition(all 0.5s ease);
 }
 
-/* == Buttons ================================================ */
-.button {
-    background-color: #fff;
-    border: 2px solid #e97225;
-    color: #e97225;
-    cursor: pointer;
-    display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: .8em;
-    font-weight: 700;
-    margin: 15px 0;
-    max-width: 350px;
-    padding: 12px 15px;
-    text-align: center;
-    text-transform: uppercase;
-
-    @include appearance(none);
-
-    @include border-radius(0);
-
-    @include transition(background-color 0.5s ease);
-
-    &:hover {
-        background-color: #e97225;
-        color: #fff;
-    }
-}
-
 /* == Typography ================================================== */
 h1 {
     color: #49c0b6;
